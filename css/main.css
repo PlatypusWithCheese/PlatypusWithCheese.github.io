@@ -1,0 +1,103 @@
+/* div ids */
+#main { 
+width: 730px; 
+margin-left: auto; 
+margin-right: auto; 
+position: relative; 
+visibility: visible;
+ }
+
+#logo { 
+height: 100px; 
+width: 100px; 
+left: 10px; 
+top: 10px; 
+position: absolute; 
+visibility: visible; 
+background-image: url(../img/logo_1x1.png);
+ }
+
+#banner { 
+height: 100px; 
+width: 600px; 
+left: 120px; 
+top: 10px; 
+position: absolute; 
+visibility: visible; 
+background:url(../img/logo_100x600.png);
+ }
+
+#menu { 
+height: 600px; 
+width: 100px; 
+left: 10px; 
+top: 120px; 
+position: absolute; 
+visibility: visible;
+ }
+
+#content { 
+width: 600px; 
+left: 120px; 
+top: 120px; 
+position: absolute; 
+visibility: visible; 
+font-family:Verdana, Geneva, sans-serif; 
+font-size:12px;
+ }
+/* paragraph classes */
+.center { 
+text-align:center;
+ }
+ 
+.toplinks { 
+text-align:center; 
+font-weight:bold;
+ }
+ 
+.footer { 
+text-align:center; 
+font-size:9px;
+ }
+ 
+.rubrik { 
+text-align:center; 
+font-size:12px; 
+font-weight:bold;
+ }
+ 
+.date { 
+text-align:center; 
+font-size:8px;
+ }
+ 
+/* link style def */
+#content a { 
+text-decoration: none; 
+border-bottom:1px dotted;
+ }
+ 
+a { 
+text-decoration: none; 
+color: black;
+ }
+ 
+a:link { 
+text-decoration:none; 
+color: black;
+ }
+ 
+a:visited { 
+text-decoration:none;
+ color: black;
+ }
+ 
+a:hover { 
+text-decoration:underline; 
+color: #663366;
+ }
+ 
+a:active { 
+text-decoration:none; 
+color: black;
+ }
